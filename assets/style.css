@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: linear-gradient(90deg, #030A0C 0%, #061317 100%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.2rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.64rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    border-radius: 0.512rem;
+    border: none;
+    margin: 1rem 0 1rem 0;
+    font-family: 'Poppins', sans-serif;
+    color: #02070A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    padding: 1rem 0 1.563rem 0;
+    font-size: 3.052rem;
+    -webkit-text-stroke: 0.044rem rgb(255, 255, 255, 0.1);
+    text-stroke: 0.044rem rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0);
+}
+
+h2 {
+    font-size: 2.441rem;
+    line-height: 2.441rem;
+    margin: 0.64rem 0 0.64rem 0;
+}
+
+h3 {
+    font-size: 1.953rem;
+    margin: 0.64rem 0 0.64rem 0;
+}
+
+h4 {
+    font-size: 1.563rem;
+    margin: 0.64rem 0 0.64rem 0;
+}
+
+h5 {
+    font-size: 1.25rem;
+    margin: 0.64rem 0 0.64rem 0;
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 0.64rem 0 0.64rem 0;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-overline {
+    text-decoration: overline;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-space-between {
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-space-between {
+    justify-content: space-between;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    padding: 0 1rem 0 1rem;
+}
+
+#hero-button {
+    margin-top: 2rem;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.programs-pics {
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+}
+
+.programs-pics>img {
+    margin-left: 1rem;
+}
+
+#programs-controls {
+    margin-top: 2rem;
+}
+
+#content-title {
+    margin: 1rem 0 1.5rem 0;
+}
+
+#content-subtitle {
+    margin-bottom: 1rem;
+}
+
+#programs-arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#services-image-section {
+    margin: 1rem 0 1rem 0;
+}
+
+#services-image>img {
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+#services-image {
+    margin-left: 0.5rem;
+}
+
+#pricing-heading {
+    text-align: center;
+}
+
+.price-card {
+    background: linear-gradient(158.18deg, rgba(255, 255, 255, 0.25) -19.31%, rgba(255, 255, 255, 0) 116.49%);
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-card>div {
+    margin: 0.8rem;
+    width: max-content;
+    height: max-content;
+}
+
+
+#prices {
+    overflow-x: scroll;
+    margin-top: 1rem;
+}
