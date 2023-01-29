@@ -18,9 +18,15 @@
     font-size: 3.052rem;
 }
 
+html{
+    height: -webkit-fill-available;
+}
+
 body {
     background: linear-gradient(90deg, #030A0C 0%, #061317 100%);
     color: white;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 h1 {
